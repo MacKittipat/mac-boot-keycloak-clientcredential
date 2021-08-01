@@ -19,7 +19,11 @@ curl --location --request POST 'http://localhost:8080/auth/realms/mac-boot-keycl
 --data-urlencode 'client_id=client-credential-sample' \
 --data-urlencode 'client_secret=11111111-1111-1111-1111-111111111111'
 ```
-
+* Call API
+```
+curl --location --request GET 'http://localhost:8081/private/hello' \
+--header 'Authorization: Bearer XXXXX' 
+```
 
 ## Reference 
 * https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2resourceserver
