@@ -25,5 +25,8 @@ curl --location --request GET 'http://localhost:8081/private/hello' \
 --header 'Authorization: Bearer XXXXX' 
 ```
 
+## Resource Server (API)
+* `JwtAuthenticationProvider` will validate token
+
 ## Reference 
 * https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2resourceserver
